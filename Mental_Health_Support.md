@@ -22,3 +22,6 @@ This document outlines actionable, research-backed requirements and implementati
 
 **User Story:**  
 _As a resident seeking mental health support, I want a centralized platform to find local services easily so that I don’t get overwhelmed._
+
+**Priority:** 🔴 High  
+*GitHub Issue: #1*
