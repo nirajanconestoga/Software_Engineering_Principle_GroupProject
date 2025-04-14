@@ -77,3 +77,25 @@ CREATE TABLE mental_health_services (
 
 CREATE INDEX idx_service_type ON mental_health_services(service_type);
 ```
+
+#### Sub-Issue 3: Develop Backend API for Directory Access
+
+**Priority:** 🔴 High  
+**Goal:** Enable the front end and other systems to retrieve filtered results and contact details via REST endpoints.  
+**Approach:** Build using Express.js or Django REST Framework.  
+**Tasks:**
+
+- ```GET /services``` to fetch all services with optional filters.
+-  ```GET /services/:id``` to retrieve a specific service.
+- ```POST /services``` to allow admin users to add new entries.
+- Implement filtering query parameters (e.g., ```?type=emergency&demographic=youth```).
+
+```python
+@app.route('/services', methods=['GET'])
+def get_services():
+    """
+    Fetch and filter mental health services.
+    Returns:
+        JSON list of services with contact and type details.
+    """
+```
