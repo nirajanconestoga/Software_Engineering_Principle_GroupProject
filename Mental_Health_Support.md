@@ -49,3 +49,31 @@ To address this, we will implement a centralized directory platform that consoli
 - Validate this assumption through A/B testing between a static resource list and the centralized directory.
 - Collect time-to-locate-service metrics and user feedback.
 - Track the number of completed referrals/contact attempts via the platform.
+
+#### Sub-Issue 2: Design and Set Up Directory Database
+
+**Priority:** 🟠 Medium  
+**Goal:** Create a structured and searchable database of all local mental health services.  
+**Approach:** Use SQLite/PostgreSQL to allow quick queries and flexible metadata filtering.  
+**Tasks:**
+
+- Define data schema with attributes (e.g., name, description, contact, service type, population).
+- Implement indexing for search optimization.
+- Create SQL scripts for table creation and sample data population.
+
+**SQL Implementation Suggestion:**
+
+```sql
+CREATE TABLE mental_health_services (
+    id SERIAL PRIMARY KEY,
+    name VARCHAR(255),
+    service_type VARCHAR(100),
+    demographic_target VARCHAR(100),
+    contact_email VARCHAR(255),
+    contact_phone VARCHAR(50),
+    urgency_level VARCHAR(50),
+    description TEXT
+);
+
+CREATE INDEX idx_service_type ON mental_health_services(service_type);
+```
