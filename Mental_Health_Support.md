@@ -108,3 +108,14 @@ def get_services():
 - Design a card-based service listing UI with filterable panels.
 - Show summary info: service name, brief description, and a 'Connect' button.
 - Enable detailed view on click with full info and map directions.
+
+#### Sub-Issue 5: Implement Search, Filter, and Contact Interaction
+
+**Priority:** 🟠 Medium  
+**Goal:** Improve discoverability and actionability of services.  
+**Tasks:**
+
+- Add a search bar for keyword-based queries.
+- Add filter dropdowns (type, age group, urgency).
+- Integrate phone and email action buttons.
+- Use Google Maps API for directions integration.
