@@ -15,3 +15,10 @@ This document outlines actionable, research-backed requirements and implementati
 - 🟢 **Low Priority** → Enhancements or non-essential features.
 
 ---
+
+## Actionable Requirements
+
+### 1. Centralized Access to Mental Health Services
+
+**User Story:**  
+_As a resident seeking mental health support, I want a centralized platform to find local services easily so that I don’t get overwhelmed._
