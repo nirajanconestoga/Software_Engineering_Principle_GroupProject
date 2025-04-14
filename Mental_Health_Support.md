@@ -25,3 +25,10 @@ _As a resident seeking mental health support, I want a centralized platform to f
 
 **Priority:** 🔴 High  
 *GitHub Issue: #1*
+
+#### Purpose
+
+Based on community data from the Region of Waterloo Mental Wellness Strategy and reports such as Safe and Well WR – Mental Health Needs and the Analysis of Community Engagement Input, it is evident that mental health services in the region are fragmented, making it difficult for residents to access appropriate support (Region of Waterloo, 2023; Safe and Well WR, 2023).
+
+To address this, we will implement a centralized directory platform that consolidates local mental health services, includes smart filters, and provides direct contact capabilities to simplify access and empower residents.
+
