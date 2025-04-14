@@ -40,3 +40,12 @@ To address this, we will implement a centralized directory platform that consoli
 - Design a responsive UI that supports both desktop and mobile users.
 
 ---
+
+### Sub-Issues
+
+#### Sub-Issue 1: We assume that centralizing access to mental health resources will reduce time-to-help and improve user satisfaction.
+
+**Priority:** 🔴 High  
+- Validate this assumption through A/B testing between a static resource list and the centralized directory.
+- Collect time-to-locate-service metrics and user feedback.
+- Track the number of completed referrals/contact attempts via the platform.
