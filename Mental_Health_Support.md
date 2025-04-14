@@ -99,3 +99,12 @@ def get_services():
         JSON list of services with contact and type details.
     """
 ```
+#### Sub-Issue 4: Implement Frontend UI for Service Discovery
+
+**Priority:** 🔴 High  
+**Goal:** Provide users with an intuitive way to discover and connect with local services.  
+**Tasks:**
+
+- Design a card-based service listing UI with filterable panels.
+- Show summary info: service name, brief description, and a 'Connect' button.
+- Enable detailed view on click with full info and map directions.
