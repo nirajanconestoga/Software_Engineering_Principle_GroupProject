@@ -119,3 +119,13 @@ def get_services():
 - Add filter dropdowns (type, age group, urgency).
 - Integrate phone and email action buttons.
 - Use Google Maps API for directions integration.
+
+#### Sub-Issue 6: Test and Validate Usability
+
+**Priority:** 🟢 Low  
+**Goal:** Ensure the platform significantly improves service discovery time and experience.  
+**Tasks:**
+
+- Conduct usability testing with at least 10 users from different age groups.
+- Measure navigation time, success rate, and satisfaction.
+- Use feedback to iterate UI/UX.
