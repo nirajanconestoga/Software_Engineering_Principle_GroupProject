@@ -7,3 +7,11 @@ Residents of the Waterloo Region face significant barriers in accessing mental h
 This document outlines actionable, research-backed requirements and implementation strategies prioritized for structured delivery.
 
 ---
+
+## Priority Levels
+
+- 🔴 **High Priority** → Critical for core functionality.  
+- 🟠 **Medium Priority** → Important but not immediately blocking.  
+- 🟢 **Low Priority** → Enhancements or non-essential features.
+
+---
