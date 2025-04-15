@@ -237,3 +237,15 @@ def get_wait_times():
     Returns current average wait times by service.
     """
 ```
+#### Sub-Issue 5: Implement UI for Wait Time Display and Tools
+
+**Priority:** 🟠 Medium  
+**Goal:** Display real-time wait times and enable access to support tools.
+**Tasks:**
+
+- Show estimated wait time below each service name (e.g., “3 days avg.”).
+- Add visual indicators like progress bars or countdown timers.
+- Provide a “Coping Tools” tab for self-help resources.
+- Alert user when their waitlist position improves.
+
+
