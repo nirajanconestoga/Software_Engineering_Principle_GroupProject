@@ -328,3 +328,23 @@ CREATE TABLE user_engagement (
     timestamp TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
 ```
+
+#### Sub-Issue 3: Implement Anonymous Educational Platform and Forum
+
+**Priority:** 🔴 High  
+**Goal:** Create a judgment-free space to learn and engage in mental health topics. 
+**Approach:** Design UI/UX to support safe, anonymous engagement.  
+**Tasks:**
+
+- Build UI for browsing and completing educational resources.
+- Implement dropdowns or quizzes embedded in content.
+- Create an anonymous forum with basic posting and comment features.
+- Moderate content automatically with keyword flags.
+
+**Python Implementation Suggestion:**
+```python
+def post_anonymous_question(content: str, user_id: int = None):
+    """
+    Saves a new forum post anonymously or linked to user_id if provided.
+    """
+```
