@@ -512,3 +512,12 @@ To address this, we will develop a youth-focused experience that includes gamifi
 
 ---
 
+### Sub-Issues
+
+#### Sub-Issue 1: We assume that a gamified and relatable interface increases help-seeking among youth.
+
+**Priority:** 🔴 High  
+- Validate this through A/B testing between standard and gamified experiences.
+- Conduct focus groups with youth participants aged 13–24.
+- Measure time-on-platform, return rate, and journal completion stats.
+
