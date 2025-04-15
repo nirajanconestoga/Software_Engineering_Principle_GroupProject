@@ -476,3 +476,14 @@ CREATE TABLE cultural_tags (
 - Audit existing educational content for cultural bias or assumptions.
 - Create alternative narratives/examples aligned with community values.
 - Tag service listings with “Culturally Appropriate”, “Language-Specific”, etc.
+
+#### Sub-Issue 5: Conduct Multicultural Usability Testing
+
+**Priority:** 🟢 Low  
+**Goal:** Ensure translated and localized experiences are effective and intuitive.
+ experiences  
+**Tasks:**
+
+- Recruit 2–3 users per language group for usability testing.
+- Monitor session flows, task success, and qualitative feedback.
+- Refine translations, interface spacing, and directionality (LTR/RTL).
