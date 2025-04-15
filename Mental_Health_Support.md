@@ -589,3 +589,13 @@ def submit_journal_entry():
     Handles creation of a youth journal entry.
     """
 ```
+
+#### Sub-Issue 5: Implement Peer Support Group Module
+
+**Priority:** 🟢 Low  
+**Goal:** Facilitate safe youth-to-youth connection via moderated group discussions.  
+**Tasks:**
+
+- Design chatroom UI with topic filters (e.g., “School Stress”, “Family”, “Anxiety”).
+- Allow emoji-based reactions and anonymous posting (if toggled).
+- Assign moderators or use keyword-based auto-moderation.
