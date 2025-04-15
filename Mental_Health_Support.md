@@ -159,3 +159,12 @@ To address this, we will implement real-time wait time estimates, mood tracking,
 - Ensure all wait time and support data is accessible via API endpoints for reuse in other systems.
 
 ---
+
+### Sub-Issues
+
+#### Sub-Issue 1: We assume that showing estimated wait times and progress notifications will reduce user anxiety and increase service follow-through
+
+**Priority:** 🔴 High  
+- Validate this by conducting surveys and usage analytics across two groups: with and without the wait time display.
+- Track user retention and engagement metrics over a 14-day waiting period.
+- Compare help-seeking completion rates for both groups.
