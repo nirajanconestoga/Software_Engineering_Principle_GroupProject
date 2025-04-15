@@ -611,7 +611,7 @@ def submit_journal_entry():
 
 - Canadian Mental Health Association Ontario. (2022). *Stigma and barriers to care: Mental health literacy insights*. https://ontario.cmha.ca/documents/stigma-and-discrimination/
 
-- Child and Youth Refugee Research Coalition. (2021). *Language barriers in refugee children’s mental health support*. https://cyrrc.org
+- Enhancing Cultural Literacy to Improve Refugee Mental Health Services: An Innovative Educational Initiative for Supporting Culturally Appropriate Service Provision in the Waterloo Region. https://cyrrc.org/2022/02/enhancing-cultural-literacy-to-improve-refugee-mental-healthcare-during-covid-19-an-innovative-educational-initiative-for-supporting-culturally-sensitive-service-provision-and-community-engagement/
 
 - O’Neill, L., Kline, T., & Graham, L. (2021). *Mental health waitlists and service barriers in Ontario*. *International Journal of Mental Health Systems, 15(1), 34*. https://ijmhs.biomedcentral.com/articles/10.1186/s13033-023-00572-z
 
