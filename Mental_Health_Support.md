@@ -150,3 +150,12 @@ _As a person struggling with mental health, I want to get support quickly or kno
 Through research of publicly available articles and regional mental health planning documents, we found that long wait times are a major barrier to timely mental health support in the Region of Waterloo (O’Neill et al., 2021; Waterloo Undergraduate Student Association, 2023).
 
 To address this, we will implement real-time wait time estimates, mood tracking, and interim self-help tools to keep users informed, engaged, and emotionally supported while they await access to care.
+
+### Implementation Strategy
+
+- Display estimated wait times for each service provider.
+- Provide interim support tools like mood check-ins, breathing exercises, and CBT modules.
+- Notify users when their position in a waitlist progresses or an earlier appointment becomes available.
+- Ensure all wait time and support data is accessible via API endpoints for reuse in other systems.
+
+---
