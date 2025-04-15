@@ -348,3 +348,24 @@ def post_anonymous_question(content: str, user_id: int = None):
     Saves a new forum post anonymously or linked to user_id if provided.
     """
 ```
+
+#### Sub-Issue 4: Develop Backend API for Forum, Resources, and Quizzes
+
+**Priority:** 🔴 High  
+**Goal:** Enable all features programmatically for future reuse or mobile version. 
+**Approach:** Use Django REST Framework or Flask with JWT support. 
+**Tasks:**
+
+- `GET /articles` – return educational materials
+- `POST /forum` – submit anonymous post
+- `POST /quiz_result` – log badge progress
+- Add moderation endpoints to allow admin content review.
+
+**Python Implementation Suggestion:**
+```python
+@app.route('/forum', methods=['POST'])
+def submit_forum_post():
+    """
+    Submits a new anonymous forum post for review or publishing.
+    """
+```
