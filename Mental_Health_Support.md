@@ -380,3 +380,13 @@ def submit_forum_post():
 - Add a streak counter or XP system for continued engagement.
 - Display motivational messages on completion.
 - Allow users to view learning milestones anonymously.
+
+#### Sub-Issue 6: Measure Impact on Literacy and Stigma
+
+**Priority:** 🟢 Low  
+**Goal:** Assess if platform tools are reducing stigma and improving knowledge.
+**Tasks:**
+
+- Conduct pre- and post-intervention quizzes.
+- Analyze forum sentiment with NLP.
+- Share anonymous success stories or testimonials.
