@@ -599,3 +599,13 @@ def submit_journal_entry():
 - Design chatroom UI with topic filters (e.g., “School Stress”, “Family”, “Anxiety”).
 - Allow emoji-based reactions and anonymous posting (if toggled).
 - Assign moderators or use keyword-based auto-moderation.
+
+#### Sub-Issue 6: Build Youth-Specific Onboarding and Access Flow
+
+**Priority:** 🟠 Medium  
+**Goal:** Onboard youth users in a friendly, age-appropriate way.  
+**Tasks:**
+
+- Create onboarding flow with simplified tone and animated guidance.
+- Allow users to choose their interests and struggles (for content personalization).
+- Redirect adult users away from youth content via role validation.
