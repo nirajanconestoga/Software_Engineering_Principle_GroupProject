@@ -217,3 +217,23 @@ def record_mood_checkin(user_id: int, mood_score: int, notes: str):
     Stores a user's daily mental health mood check-in.
     """
 ```
+#### Sub-Issue 4: Develop Backend API for Wait Time and Notifications
+
+**Priority:** 🔴 High  
+**Goal:** Make wait times and support tools programmatically accessible.  
+**Approach:** Use Flask or Django REST Framework.  
+**Tasks:**
+
+- ```GET /wait_times``` – fetch current wait times.
+- ```POST /mood_checkin``` – store mood entry.
+- ```GET /user_notifications``` – fetch user alerts.
+- ```POST /notify_user``` – update position or cancellation.
+
+**Python Implementation Suggestion:**
+```python
+@app.route('/wait_times', methods=['GET'])
+def get_wait_times():
+    """
+    Returns current average wait times by service.
+    """
+```
