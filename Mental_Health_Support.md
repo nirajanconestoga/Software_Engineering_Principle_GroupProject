@@ -486,14 +486,14 @@ CREATE TABLE cultural_tags (
 ## 5. Youth Mental Health Support
 
 **User Story:**  
-_As a young person, I want support tools that relate to my issues (stress, bullying), so I feel understood and take action._
+_As a young person, I want support tools that relate to my issues (stress), so I feel understood and take action._
 
 **Priority:** 🔴 High  
 *GitHub Issue: #5*
 
 ### Purpose
 
-Through available research and regional reports, we found that youth in Ontario are experiencing rising levels of psychological distress and often lack access to relatable, youth-centered mental health support (CAMH, 2023; Safe and Well WR, 2023).
+Through available research and news articles, we found that youth in Ontario are experiencing increasing levels of distress and often lack relatable, youth-friendly mental health support (Global News, 2025).
 
 To address this, we will develop a youth-focused experience that includes gamified self-help tools, peer engagement features, and content tailored to young users. This will promote emotional expression, reduce isolation, and help youth access early intervention support in an approachable way.
 
@@ -620,4 +620,6 @@ def submit_journal_entry():
 - Safe and Well Waterloo Region. (2023). *Mental health needs assessment for Waterloo Region*. https://safeandwellwr.ca/mental-health-needs
 
 - Waterloo Undergraduate Student Association. (2023). *Student voices on mental health services and barriers*. https://wusa.ca/advocacy/stances/mental-health
+  
+- Global News. (2025, March 20). Canada’s youth say their mental health is in crisis due to the skyrocketing cost of living. https://globalnews.ca/news/11091276/canadas-youth-mental-health-crisis-skyrocketing-cost-of-living/​
 
