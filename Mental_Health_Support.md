@@ -168,3 +168,34 @@ To address this, we will implement real-time wait time estimates, mood tracking,
 - Validate this by conducting surveys and usage analytics across two groups: with and without the wait time display.
 - Track user retention and engagement metrics over a 14-day waiting period.
 - Compare help-seeking completion rates for both groups.
+
+#### Sub-Issue 2: Design and Set Up Database for Wait Time Tracking
+
+**Priority:** 🟠 Medium  
+**Goal:** Create a scalable and structured table to store wait estimates, user progress, and notification history.  
+**Approach:** Use PostgreSQL or SQLite with scheduled updates and indexing for query efficiency. 
+**Tasks:**
+
+- Design table to store average wait times, service type, urgency, and last updated timestamp.
+- Track user-specific progress for queueing systems.
+- Add notification flags and timestamps for update dispatch.
+
+**SQL Implementation Suggestion:**
+```sql
+CREATE TABLE service_wait_times (
+    id SERIAL PRIMARY KEY,
+    service_name VARCHAR(255),
+    average_wait_days INT,
+    urgency_level VARCHAR(50),
+    last_updated TIMESTAMP
+);
+
+CREATE TABLE user_wait_notifications (
+    id SERIAL PRIMARY KEY,
+    user_id INT,
+    service_id INT,
+    status VARCHAR(100),
+    notify_at TIMESTAMP,
+    is_notified BOOLEAN DEFAULT FALSE
+);
+```
