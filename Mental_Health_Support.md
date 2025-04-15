@@ -424,3 +424,31 @@ To address this, we will implement a multilingual and culturally adaptive interf
 - Validate this by testing comprehension and comfort levels among speakers of each supported language.
 - Track bounce rates and completion rates of support flows by language group.
 - Run A/B comparisons between translated and non-translated UI sessions.
+
+#### Sub-Issue 2: Design and Set Up Language and Cultural Resource Database
+
+**Priority:** 🟠 Medium  
+**Goal:** Store localized versions of UI strings, educational content, and culturally adapted recommendations.  
+**Approach:** Use structured tables with language codes, cultural tags, and fallback defaults. 
+**Tasks:**
+
+- Create translation key-value store (e.g., en-US, fr-CA, ur-PK).
+- Create cultural metadata schemas for service listings.
+- Link resources to specific cultural identities and user profiles.
+
+**SQL Implementation Suggestion:**
+```sql
+CREATE TABLE translations (
+    id SERIAL PRIMARY KEY,
+    key VARCHAR(255),
+    language_code VARCHAR(10),
+    translated_text TEXT
+);
+
+CREATE TABLE cultural_tags (
+    id SERIAL PRIMARY KEY,
+    service_id INT,
+    culture VARCHAR(100),
+    language VARCHAR(50)
+);
+```
