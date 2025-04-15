@@ -281,3 +281,12 @@ To address this, we will implement anonymous educational tools, moderated discus
 - Track content usage and sentiment to measure literacy improvements.
 
 ---
+
+### Sub-Issues
+
+#### Sub-Issue 1: We assume that anonymous access and relatable content will reduce stigma and encourage participation.
+
+**Priority:** 🔴 High  
+- Validate this assumption through anonymous feedback surveys and content completion metrics.
+- Compare user engagement across anonymous vs. non-anonymous modules.
+- Track user return rates and time spent in education sections.
