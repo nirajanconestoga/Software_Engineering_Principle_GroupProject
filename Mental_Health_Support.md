@@ -391,3 +391,11 @@ def submit_forum_post():
 - Conduct pre- and post-intervention quizzes.
 - Analyze forum sentiment with NLP.
 - Share anonymous success stories or testimonials.
+
+## 4. Cultural and Language Inclusivity
+
+**User Story:**  
+_As a newcomer or diverse resident, I want support in my language and culture, so I can access help without misunderstanding._
+
+**Priority:** 🔴 High  
+*GitHub Issue: #4*
