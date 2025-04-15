@@ -567,3 +567,25 @@ def record_journal_entry(user_id: int, mood_score: int, text: str):
     Saves a daily youth journal entry with optional mood rating.
     ""
 ```
+
+#### Sub-Issue 4: Develop Backend API for Youth Modules
+
+**Priority:** 🔴 High  
+**Goal:** Allow frontend and mobile apps to access youth content, peer modules, and progress data.  
+**Approach:** Use REST APIs with youth-role-based access control.  
+**Tasks:**
+
+- `GET /youth_journals` – retrieve user's journal history.
+- `POST /journal_entry` – submit new entry.
+- `GET /badges – fetch` earned badges.
+- `GET /group_chat` – view peer messages (moderated).
+- Secure endpoints using role-based middleware.
+
+**API Example:**
+```python
+@app.route('/journal_entry', methods=['POST'])
+def submit_journal_entry():
+    """
+    Handles creation of a youth journal entry.
+    """
+```
