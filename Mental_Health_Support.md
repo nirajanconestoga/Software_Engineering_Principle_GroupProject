@@ -466,3 +466,13 @@ CREATE TABLE cultural_tags (
 **Frontend Example:**
 ```html
 <i18n-t keypath="welcome_message"></i18n-t>
+
+#### Sub-Issue 4: Culturally Adapt Resource Content and Tags
+
+**Priority:** 🟠 Medium  
+**Goal:**  Ensure resources resonate with diverse backgrounds and norms. 
+**Tasks:**
+
+- Audit existing educational content for cultural bias or assumptions.
+- Create alternative narratives/examples aligned with community values.
+- Tag service listings with “Culturally Appropriate”, “Language-Specific”, etc.
