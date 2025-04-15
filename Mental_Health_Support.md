@@ -249,3 +249,12 @@ def get_wait_times():
 - Alert user when their waitlist position improves.
 
 
+#### Sub-Issue 6: Handle Notifications and User Preferences
+
+**Priority:** 🟢 Low  
+**Goal:** Keep users updated via preferred channels (email, SMS, in-app).
+**Tasks:**
+
+- Add toggle for user to opt-in/out of notifications.
+- Queue and send alerts via `notify_user()` function.
+- Show in-app status updates (e.g., “You’ve moved up the queue!”).
