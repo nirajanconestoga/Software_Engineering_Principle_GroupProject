@@ -290,3 +290,41 @@ To address this, we will implement anonymous educational tools, moderated discus
 - Validate this assumption through anonymous feedback surveys and content completion metrics.
 - Compare user engagement across anonymous vs. non-anonymous modules.
 - Track user return rates and time spent in education sections.
+
+#### Sub-Issue 2: Design and Set Up Database for Educational Content and User Events
+
+**Priority:** 🟠 Medium  
+**Goal:**  Create structured storage for mental health resources, forum entries, and user engagement logs.  
+**Approach:**  Use PostgreSQL with tagging and audit trail for moderation.
+**Tasks:**
+
+- Create tables for articles, forum posts, tags, and views.
+- Store anonymity flags and timestamps for user submissions.
+- Link educational content with learning badges.
+
+**SQL Implementation Suggestion:**
+```sql
+CREATE TABLE mental_health_articles (
+    id SERIAL PRIMARY KEY,
+    title VARCHAR(255),
+    content TEXT,
+    tags TEXT[],
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+CREATE TABLE forum_posts (
+    id SERIAL PRIMARY KEY,
+    post_body TEXT,
+    is_anonymous BOOLEAN DEFAULT TRUE,
+    user_id INT,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+CREATE TABLE user_engagement (
+    id SERIAL PRIMARY KEY,
+    user_id INT,
+    article_id INT,
+    completed BOOLEAN,
+    timestamp TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+```
