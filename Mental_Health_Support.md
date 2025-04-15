@@ -129,3 +129,18 @@ def get_services():
 - Conduct usability testing with at least 10 users from different age groups.
 - Measure navigation time, success rate, and satisfaction.
 - Use feedback to iterate UI/UX.
+
+## 2. Timely Support and Reduced Wait Times
+
+**User Story:**  
+_As a person struggling with mental health, I want to get support quickly or know how long I’ll wait, so that I don’t feel ignored._
+
+**Priority:** 🔴 High  
+*GitHub Issue: #2*
+## 2. Timely Support and Reduced Wait Times
+
+**User Story:**  
+_As a person struggling with mental health, I want to get support quickly or know how long I’ll wait, so that I don’t feel ignored._
+
+**Priority:** 🔴 High  
+*GitHub Issue: #2*
