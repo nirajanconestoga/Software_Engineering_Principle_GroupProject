@@ -369,3 +369,14 @@ def submit_forum_post():
     Submits a new anonymous forum post for review or publishing.
     """
 ```
+
+#### Sub-Issue 5: Build UI for Literacy Progress and Gamification
+
+**Priority:** 🟠 Medium  
+**Goal:** Motivate users to learn consistently through small rewards.  
+**Tasks:**
+
+- Design progress tracker showing completed articles and badges earned.
+- Add a streak counter or XP system for continued engagement.
+- Display motivational messages on completion.
+- Allow users to view learning milestones anonymously.
