@@ -497,3 +497,9 @@ _As a young person, I want support tools that relate to my issues (stress, bully
 **Priority:** 🔴 High  
 *GitHub Issue: #5*
 
+### Purpose
+
+Through available research and regional reports, we found that youth in Ontario are experiencing rising levels of psychological distress and often lack access to relatable, youth-centered mental health support (CAMH, 2023; Safe and Well WR, 2023).
+
+To address this, we will develop a youth-focused experience that includes gamified self-help tools, peer engagement features, and content tailored to young users. This will promote emotional expression, reduce isolation, and help youth access early intervention support in an approachable way.
+
