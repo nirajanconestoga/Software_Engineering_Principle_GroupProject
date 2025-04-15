@@ -488,3 +488,12 @@ CREATE TABLE cultural_tags (
 - Recruit 2–3 users per language group for usability testing.
 - Monitor session flows, task success, and qualitative feedback.
 - Refine translations, interface spacing, and directionality (LTR/RTL).
+
+## 5. Youth Mental Health Support
+
+**User Story:**  
+_As a young person, I want support tools that relate to my issues (stress, bullying), so I feel understood and take action._
+
+**Priority:** 🔴 High  
+*GitHub Issue: #5*
+
