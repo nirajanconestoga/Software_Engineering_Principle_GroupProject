@@ -144,3 +144,9 @@ _As a person struggling with mental health, I want to get support quickly or kno
 
 **Priority:** 🔴 High  
 *GitHub Issue: #2*
+
+### Purpose
+
+Through research of publicly available articles and regional mental health planning documents, we found that long wait times are a major barrier to timely mental health support in the Region of Waterloo (O’Neill et al., 2021; Waterloo Undergraduate Student Association, 2023).
+
+To address this, we will implement real-time wait time estimates, mood tracking, and interim self-help tools to keep users informed, engaged, and emotionally supported while they await access to care.
