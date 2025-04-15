@@ -258,3 +258,11 @@ def get_wait_times():
 - Add toggle for user to opt-in/out of notifications.
 - Queue and send alerts via `notify_user()` function.
 - Show in-app status updates (e.g., “You’ve moved up the queue!”).
+
+## 3. Destigmatization and Mental Health Literacy
+
+**User Story:**  
+_As a person hesitant to seek help, I want to access anonymous and educational resources, so I can learn and engage safely._
+
+**Priority:** 🔴 High  
+*GitHub Issue: #3*
