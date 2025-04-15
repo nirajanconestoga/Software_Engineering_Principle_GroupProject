@@ -452,3 +452,17 @@ CREATE TABLE cultural_tags (
     language VARCHAR(50)
 );
 ```
+#### Sub-Issue 3: Implement Multilingual UI and Language Toggle
+
+**Priority:** 🔴 High  
+**Goal:** Allow users to interact with the platform in their preferred language.  
+**Approach:** Use i18n libraries like `i18next` or `Vue-i18n` to support frontend localization.
+**Tasks:**
+
+- Implement language selector dropdown on homepage.
+- Ensure translated versions of all navigation, forms, and support flows.
+- Integrate language detection from browser or user profile.
+
+**Frontend Example:**
+```html
+<i18n-t keypath="welcome_message"></i18n-t>
