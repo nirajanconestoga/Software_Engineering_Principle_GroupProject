@@ -549,3 +549,21 @@ CREATE TABLE user_badges (
     awarded_at TIMESTAMP
 );
 ```
+#### Sub-Issue 3: Implement Gamified Progress Tracking and Journaling
+
+**Priority:** 🔴 High  
+**Goal:** Encourage continued engagement with emotional regulation tools.
+**Approach:** Build a streak-based wellness system and journaling log with mood sliders.  
+**Tasks:**
+
+- Create daily prompt notifications and check-in reminders.
+- Add streak counters, XP bars, and celebratory badge animations.
+- Store journal entries and mood logs in secure storage.
+
+**Python Implementation Suggestion:**
+```python
+def record_journal_entry(user_id: int, mood_score: int, text: str):
+    """
+    Saves a daily youth journal entry with optional mood rating.
+    ""
+```
