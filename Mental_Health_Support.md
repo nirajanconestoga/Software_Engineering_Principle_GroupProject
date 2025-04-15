@@ -609,3 +609,21 @@ def submit_journal_entry():
 - Create onboarding flow with simplified tone and animated guidance.
 - Allow users to choose their interests and struggles (for content personalization).
 - Redirect adult users away from youth content via role validation.
+
+
+## References
+
+- Boak, A., Hamilton, H. A., Adlaf, E. M., Henderson, J. L., & Mann, R. E. (2023). 2023 OSDUHS Mental Health & Well-Being Report – Summary. *Centre for Addiction and Mental Health*. [Link](https://bmchealthservres.biomedcentral.com/articles/10.1186/s12913-023-09075-6)
+
+- Canadian Mental Health Association Ontario. (2022). *Stigma and barriers to care: Mental health literacy insights*. [Link](https://ontario.cmha.ca/documents/stigma-and-discrimination/)
+
+- Child and Youth Refugee Research Coalition. (2021). *Language barriers in refugee children’s mental health support*. [Link](https://cyrrc.org)
+
+- O’Neill, L., Kline, T., & Graham, L. (2021). *Mental health waitlists and service barriers in Ontario*. *International Journal of Mental Health Systems, 15(1), 34*. [Link](https://ijmhs.biomedcentral.com/articles/10.1186/s13033-023-00572-z)
+
+- Region of Waterloo. (2023). *Mental wellness strategy and community engagement report*. [Link](https://www.regionofwaterloo.ca/en/health-and-wellness/mental-wellness.aspx)
+
+- Safe and Well Waterloo Region. (2023). *Mental health needs assessment for Waterloo Region*. [Link](https://safeandwellwr.ca/mental-health-needs/)
+
+- Waterloo Undergraduate Student Association. (2023). *Student voices on mental health services and barriers*. [Link](https://wusa.ca/advocacy/stances/mental-health/)
+
