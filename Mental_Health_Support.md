@@ -266,3 +266,9 @@ _As a person hesitant to seek help, I want to access anonymous and educational r
 
 **Priority:** 🔴 High  
 *GitHub Issue: #3*
+
+### Purpose
+
+Using insights gathered from mental health organizations and peer-reviewed studies, we concluded that stigma remains a significant barrier preventing individuals—particularly youth—from seeking mental health support (CMHA Ontario, 2022; BMC Health Services Research, 2021).
+
+To address this, we will implement anonymous educational tools, moderated discussion forums, and gamified content to promote literacy and safe engagement. These features will encourage open learning without fear of judgment, helping to normalize mental health conversations and encourage early help-seeking behavior.
