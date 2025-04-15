@@ -199,3 +199,21 @@ CREATE TABLE user_wait_notifications (
     is_notified BOOLEAN DEFAULT FALSE
 );
 ```
+#### Sub-Issue 3: Implement Self-Help Module and Mood Tracker
+
+**Priority:** 🔴 High  
+**Goal:** Keep users supported during the waiting period by offering useful tools.  
+**Approach:** Provide a collection of guided breathing, journaling, and CBT content. 
+**Tasks:**
+
+- Design UI for mood check-in with emoji slider and notes.
+- Embed calming resources: guided breathing, anxiety grounding exercises, etc.
+- Store check-in history in local storage or backend DB.
+
+**Python Implementation Suggestion:**
+```python
+def record_mood_checkin(user_id: int, mood_score: int, notes: str):
+    """
+    Stores a user's daily mental health mood check-in.
+    """
+```
