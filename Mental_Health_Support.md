@@ -466,6 +466,7 @@ CREATE TABLE cultural_tags (
 **Frontend Example:**
 ```html
 <i18n-t keypath="welcome_message"></i18n-t>
+```
 
 #### Sub-Issue 4: Culturally Adapt Resource Content and Tags
 
