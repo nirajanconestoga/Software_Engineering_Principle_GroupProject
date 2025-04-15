@@ -521,3 +521,31 @@ To address this, we will develop a youth-focused experience that includes gamifi
 - Conduct focus groups with youth participants aged 13–24.
 - Measure time-on-platform, return rate, and journal completion stats.
 
+#### Sub-Issue 2: Design and Set Up Youth-Focused Content and Gamified Experience
+
+**Priority:** 🟠 Medium  
+**Goal:** Build and store wellness exercises, journaling prompts, and badge systems for youth users.
+**Approach:** Use a modular database structure with youth-specific metadata and interaction logs.  
+**Tasks:**
+
+- Create content modules tagged by emotional theme (e.g., anxiety, peer conflict, school pressure).
+- Track journaling history and badge achievements.
+- Separate youth content by developmental stage (e.g., 13–17 vs. 18–24).
+
+**SQL Implementation Suggestion:**
+```sql
+CREATE TABLE youth_journal_entries (
+    id SERIAL PRIMARY KEY,
+    user_id INT,
+    entry_text TEXT,
+    mood_score INT,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+CREATE TABLE user_badges (
+    id SERIAL PRIMARY KEY,
+    user_id INT,
+    badge_name VARCHAR(100),
+    awarded_at TIMESTAMP
+);
+```
